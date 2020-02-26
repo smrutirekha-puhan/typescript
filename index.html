@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Assignment</title>
+    </head>
+    <body ><div>
+        <form name="RegForm"  onsubmit="return validate()">
+            <label>Student Name</label><br>
+            <input type="text" id="sname" placeholder="Student Name"  required><font color="red" >*</font><br><br>
+            <label>Age</label><br>
+            <input type="number" id="age" placeholder="Age" required><font color="red" >*</font><br><br>
+            <label>Class</label><br>
+            <input type="text" id="sclass" placeholder="Class" required ><font color="red" >*</font><br><br>
+            <label>Favourite Subject</label><br>
+            <input type="text" id="fsub" placeholder="Favourite Subject" required><font color="red" >*</font><br><br>
+            <label>School Name</label><br>
+            <input type="text" id="schoolname" placeholder="School Name"  required ><font color="red" >*</font><br><br>
+           
+            <input type="submit"  id ="sub_btn" onclick="submit()" value="Submit">
+        </form>
+    </div>
+    <br>
+    <div class="search">
+        <input type="text" class="searchTerm" id="btn" placeholder="Search...">
+        <input type="submit" id="search_btn" onclick="search()">
+    
+    </div>
+    <script src="./myCompiledOutput/app.js"> </script>
+</body>
+</html>
